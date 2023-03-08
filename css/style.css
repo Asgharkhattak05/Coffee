@@ -1,0 +1,128 @@
+a{
+    text-decoration: none;
+}
+body{
+    background: url(../images/bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.header{
+    text-align: center;
+
+}
+.header h1{
+    color: white;
+}
+.header p{
+    color: #dd5800;
+    padding-top: 30px ;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#menu .heading{
+    color: white;
+}
+#menu{
+    text-align: center;
+    padding: 10px 0;
+    height: 80px;
+    background-color: rgb(49, 24, 16);
+}
+#menu li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+
+}
+#menu li a{
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    margin-top: 1px;
+}
+#container-fluid{
+    padding-top: 50px;
+}
+
+#menu li a:hover{
+    background-color: rgba(78, 39, 26, 0.7);
+    border-radius: 5px;
+}
+
+
+#container .intro{
+    padding-top: 100px;
+    
+}
+#container .intro img{
+    width: 100%;
+}
+#container .intro{
+    background-color: rgb(246, 225, 197);
+    background: transparent;
+}
+#container .intro .mini-container{
+    background-color: rgb(202, 157, 98);
+    height: 90%;
+    padding-top: 0.5rem;
+}
+
+#container .intro .mini-container h1,h2,p{
+    text-align: center;
+}
+#container .intro .mini-container h2{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-top: 2rem;
+   
+}
+#container .intro .mini-container h1{
+    margin: 10px 0;
+    display: block;
+    font-size: 3.2rem;
+    font-weight: 100;
+}
+#container .intro .mini-container p{
+    margin: 15px 5px;
+    text-align: justify;
+    margin: 30px 50px;
+}
+#container .intro .mini-container a{
+    background-color:rgb(49, 24, 16) ;
+    border: none;
+}
+#container .intro .mini-container a:hover{
+    background-color:rgba(78, 39, 26, 0.7) ;
+    color: white;
+}
+#container .page-section{
+    background-color: rgba(202, 157, 98,0.7);
+   padding: 100px 250px;
+}
+#container .main-page{
+    background-color: #CA9D62;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+#container .main-page h1,h2,p{
+    color: white;
+    
+}
+#container .main-page h2{
+    color: black;
+    font-size: 2rem;
+}
+
+#container #footer{
+    background-color:rgba(49, 24, 16,0.7);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.container-footer{
+    padding-top: 60px;
+}
